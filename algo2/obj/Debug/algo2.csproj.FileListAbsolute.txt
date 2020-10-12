@@ -1,0 +1,7 @@
+C:\Users\tnswh\sunjo\구름level알고리즘문제\algo2\obj\Debug\algo2.csprojAssemblyReference.cache
+C:\Users\tnswh\sunjo\구름level알고리즘문제\algo2\obj\Debug\algo2.csproj.CoreCompileInputs.cache
+C:\Users\tnswh\sunjo\구름level알고리즘문제\algo2\bin\Debug\algo2.exe.config
+C:\Users\tnswh\sunjo\구름level알고리즘문제\algo2\bin\Debug\algo2.exe
+C:\Users\tnswh\sunjo\구름level알고리즘문제\algo2\bin\Debug\algo2.pdb
+C:\Users\tnswh\sunjo\구름level알고리즘문제\algo2\obj\Debug\algo2.exe
+C:\Users\tnswh\sunjo\구름level알고리즘문제\algo2\obj\Debug\algo2.pdb
