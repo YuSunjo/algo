@@ -1,0 +1,7 @@
+C:\Users\tnswh\sunjo\구름level알고리즘문제\algo11_cSharp\obj\Debug\algo11_cSharp.csprojAssemblyReference.cache
+C:\Users\tnswh\sunjo\구름level알고리즘문제\algo11_cSharp\obj\Debug\algo11_cSharp.csproj.CoreCompileInputs.cache
+C:\Users\tnswh\sunjo\구름level알고리즘문제\algo11_cSharp\bin\Debug\algo11_cSharp.exe.config
+C:\Users\tnswh\sunjo\구름level알고리즘문제\algo11_cSharp\bin\Debug\algo11_cSharp.exe
+C:\Users\tnswh\sunjo\구름level알고리즘문제\algo11_cSharp\bin\Debug\algo11_cSharp.pdb
+C:\Users\tnswh\sunjo\구름level알고리즘문제\algo11_cSharp\obj\Debug\algo11_cSharp.exe
+C:\Users\tnswh\sunjo\구름level알고리즘문제\algo11_cSharp\obj\Debug\algo11_cSharp.pdb
