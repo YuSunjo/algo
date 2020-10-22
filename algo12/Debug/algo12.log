@@ -1,0 +1,2 @@
+﻿  main.cpp
+C:\Users\tnswh\sunjo\구름level알고리즘문제\algo12\main.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'bits/stdc++.h': No such file or directory
