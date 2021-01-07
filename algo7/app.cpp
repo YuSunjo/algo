@@ -1,73 +1,67 @@
 #include <iostream>
+#include <string>
 using namespace std;
-char aeiou[5] = { 'a', 'e', 'i', 'o','u' };
+
 void isAeiou(string str)
 {
-	for (int i = 0; i < str.length(); i++)
-	{
-		if (str[i] == 'a')
-		{
-			cout << 'a';
-		}
-		else if (str[i] == 'e')
-		{
-			cout << 'e';
-		}
-
-		else if (str[i] == 'i')
-		{
-			cout << 'i';
-		}
-		else if (str[i] == 'o')
-		{
-			cout << 'o';
-		}
-		else if (str[i] == 'u')
-		{
-			cout << 'u';
-		}
-		else if (str[i] == 'A')
-		{
-			cout << 'A';
-		}
-		else if (str[i] == 'E')
-		{
-			cout << 'E';
-		}
-		else if (str[i] == 'I')
-		{
-			cout << 'I';
-		}
-		else if (str[i] == 'O')
-		{
-			cout << 'O';
-		}
-		else if (str[i] == 'U')
-		{
-			cout << 'U';
-		}
-	}
-	cout << endl;
+	
 }
 int main()
 {
-	int num;
+	int num, len, i, cnt;
+	string str;
 	cin >> num;
-	
-	
-
-	string arr[100];
-	for (int i = 0; i < num; i++)
+	getline(cin, str);
+	while (num--)
 	{
-		cin >> arr[i];
+		getline(cin, str);
+		len = str.size();
+		cnt = 0;
+		for (i = 0; i < len; i++)
+		{
+			if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u'
+				|| str[i] == 'A'|| str[i] == 'E'|| str[i] == 'I'|| str[i] == 'O'|| str[i] == 'U'
+				) {
+				cout << str[i];
+				cnt++;
+			}
+		}
+		if (cnt == 0)
+		{
+			cout << "???";
+		}
+		cout << "\n";
 	}
-
-	for (int i = 0; i < num; i++)
-	{
-		isAeiou(arr[i]);
-	}
+	
 
 }
+
+//#include <iostream>	
+//#include <string>
+//using namespace std;
+//char aeiou[5] = { 'a', 'e', 'i', 'o','u' };
+//void isAeiou(string str)
+//{
+//	int len = str.length();
+//	for (int i = 0; i < len; i++)
+//	{
+//		if(str[i]=='a' || str[i]=='e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'e' || )
+//	}
+//}
+//
+//int main()
+//{
+//	int num;
+//	cin >> num;
+//	string str;
+//	while (num--)
+//	{
+//		getline(cin, str);
+//		isAeiou(str);
+//	}
+//	return 0;
+//}
+
 
 
 //int rest[1000000];
