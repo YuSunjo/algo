@@ -87,33 +87,74 @@
 
 //백준 그리디 알고리즘 - 로프
 
-#include<iostream>
+//#include<iostream>
+//#include<vector>
+//#include <algorithm>
+//
+//using namespace std;
+//
+//int main() {
+//	int num;
+//
+//	cin >> num;
+//	vector<int> v;
+//	int rof=0;
+//	int max = 0;
+//	for (int i = 0; i < num; i++)
+//	{
+//		cin >> rof;
+//		v.push_back(rof);
+//	}
+//	sort(v.begin(), v.end());
+//	for (int i = 0; i < num; i++)
+//	{
+//		int var = v[num - 1 - i] * (i + 1);
+//		if (var > max) {
+//			max = var;
+//		}
+//	}
+//
+//	cout << max;
+//
+//}
+
 #include<vector>
 #include <algorithm>
-
+#include<iostream>
+#include<string>
 using namespace std;
 
-int main() {
-	int num;
-
-	cin >> num;
-	vector<int> v;
-	int rof=0;
-	int max = 0;
-	for (int i = 0; i < num; i++)
-	{
-		cin >> rof;
-		v.push_back(rof);
-	}
-	sort(v.begin(), v.end());
-	for (int i = 0; i < num; i++)
-	{
-		int var = v[num - 1 - i] * (i + 1);
-		if (var > max) {
-			max = var;
-		}
-	}
-
-	cout << max;
-
+string str;
+int minResult(void)
+{
+    int result = 0;
+    string temp = "";
+    bool minus = false;
+    for (int i = 0; i <= str.size(); i++)
+    {
+        //연산자일 경우
+        if (str[i] == '+' || str[i] == '-' || str[i] == '\0')
+        {
+            if (minus)
+                result -= stoi(temp);
+            else
+                result += stoi(temp);
+            temp = ""; //초기화
+            //괄호를 뺄셈 이후에 치면 최소
+            if (str[i] == '-')
+                minus = true;
+            continue;
+        }
+        //피연산자일 경우
+        temp += str[i];
+    }
+    return result;
 }
+int main(void)
+{
+    cin >> str;
+
+    cout << minResult() << endl;
+    return 0;
+}
+
