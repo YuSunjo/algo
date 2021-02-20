@@ -15,6 +15,9 @@ print(array[-1])
 # 리스트의 슬라이싱 - 두번째 부터 4 번째
 print(array[1: 4])
 
+# 리스트 초기화
+array = [0] * 10
+
 # 리스트 컴프리헨션
 array2 = [i for i in range(20)]
 # 짝수 표현
